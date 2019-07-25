@@ -15,6 +15,7 @@ sudo rm /usr/bin/idevice*
 sudo rm /usr/lib/libimobiledevice.*
 
 # libssl
+sudo rm /usr/bin/openssl
 sudo rm /usr/lib/libssl*
 
 # libcrypto
