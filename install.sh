@@ -11,6 +11,10 @@ sudo rm /usr/lib/libplist*
 sudo rm /usr/bin/iproxy 
 sudo rm /usr/lib/libusbmuxd.*
 
+# libimobiledevice
+sudo rm /usr/bin/idevice*
+sudo rm /usr/lib/libimobiledevice.*
+
 # copy all bin & lib
 sudo chmod 755 fakeroot/usr/bin/*
 sudo chmod 755 fakeroot/usr/lib/*
@@ -20,3 +24,4 @@ sudo cp -p fakeroot/usr/lib/* /usr/lib
 # test
 plistutil
 iproxy
+
