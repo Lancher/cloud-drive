@@ -1,6 +1,5 @@
 #!/bin/sh
 
-
 set -x
 
 # libplist
@@ -14,6 +13,12 @@ sudo rm /usr/lib/libusbmuxd.*
 # libimobiledevice
 sudo rm /usr/bin/idevice*
 sudo rm /usr/lib/libimobiledevice.*
+
+# libssl
+sudo rm /usr/lib/libssl*
+
+# libcrypto
+sudo rm /usr/lib/libcrypto*
 
 # copy all bin & lib
 sudo chmod 755 fakeroot/usr/bin/*
