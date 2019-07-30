@@ -17,7 +17,7 @@ old_library='libimobiledevice.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -lssl -lcrypto /usr/lib/libusbmuxd.la /usr/lib/libplist.la -lpthread'
+dependency_libs=' -L/usr/local/lib -lssl -lcrypto /usr/lib/libusbmuxd.la /usr/local/lib/libplist.la -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
