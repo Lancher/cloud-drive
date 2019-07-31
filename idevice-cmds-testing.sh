@@ -6,12 +6,12 @@ set -ex
 idevice_id -l
 
 # idevicebackup2
-mkdir backup
+mkdir -p backup
 idevicebackup2 backup ./backup
 rm -rf ./backup
 
 # idevicecrashreport
-mkdir report
+mkdir -p report
 idevicecrashreport report ./report
 rmn -rf report
 
