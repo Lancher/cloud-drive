@@ -17,7 +17,7 @@ old_library='libusbmuxd.a'
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/lib /usr/local/lib/libplist.la -lpthread'
+dependency_libs=' /usr/lib/libplist.la -lpthread'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
